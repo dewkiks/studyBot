@@ -64,3 +64,4 @@ def ask_general_question(question: str):
     except Exception as e:
         print("Error:", str(e))
         return {"error": str(e)}
+        
