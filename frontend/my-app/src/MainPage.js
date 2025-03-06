@@ -26,6 +26,13 @@ function App() {
     setLoading(false);
   };
 
+  const handleKeyPress = (e) => {
+    if (e.key === "Enter" && !e.shiftKey) {
+      e.preventDefault(); // Prevent new line in textarea
+      askChatbot();
+    }
+}
+
   const openUploadWindow = () => {
     window.open(
       "/upload", // This will be a new route
@@ -44,6 +51,7 @@ function App() {
         placeholder="Ask a study-related question..."
         value={question}
         onChange={(e) => setQuestion(e.target.value)}
+        onKeyDown={handleKeyPress} // Detect Enter key
       />
       <button className="ask-button" onClick={askChatbot} disabled={loading}>
         {loading ? "Thinking..." : "Ask AI"}
@@ -57,7 +65,7 @@ function App() {
           </div>
         </div>
       )}
-      /* <div className="cards-container">
+    <div className="cards-container">
 
 
         <div className="card" onClick={openUploadWindow} style={{ cursor: "pointer" }}>

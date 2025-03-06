@@ -1,15 +1,14 @@
 .container {
-  width: 50%;
+  width: 1090px;
   margin: auto;
   text-align: center;
   padding: 20px;
-  background: #f9f9f9;
   border-radius: 10px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
 }
 
 .input-box {
-  width: 100%;
+  width: 1059px;
   height: 100px;
   padding: 10px;
   font-size: 16px;
@@ -52,7 +51,7 @@
 /* Cards Styling */
 .cards-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 20px;
 }
 
@@ -100,12 +99,10 @@ body {
 }
 
 .container {
-  background: white;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
-  width: 400px;
 }
 
 h2 {
@@ -157,5 +154,4 @@ p {
 }
 .overflow{
   overflow: hidden;
-  text-align: ;
 }
