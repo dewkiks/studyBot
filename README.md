@@ -1,10 +1,5 @@
 # STUDY BOT  🎯
 
-
-## Basic Details
-### Team Name: ENCRYPT
-
-
 ### Team Members
 - Member 1: ANZIL T 
 - Member 2: AKHIL V U 
@@ -24,13 +19,7 @@ We built Study Bot—an AI-driven chatbot that delivers precise, subject-specifi
 - python,javaScript,css
 - reactJS
 - FastAPI,Gemini
-- 
-
-### Implementation
-For Software:
-# Installation
-[commands]
-
+  
 # Run
 npm start
 uvicorn backend.main:app --reload
@@ -38,5 +27,3 @@ uvicorn backend.main:app --reload
 ## Team Contributions
 - ANZIL T: BACKEND
 - AKHIL V U: FRONTEND
----
-Dept. of Computer Applications, CUCEK
